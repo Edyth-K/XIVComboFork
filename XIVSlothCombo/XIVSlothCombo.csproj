@@ -37,7 +37,7 @@
 
 	<PropertyGroup Condition="'$(Configuration)' == 'Debug'">
 		<Platforms>x64</Platforms>
-		<Nullable>enable</Nullable>
+		<Nullable>disable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
